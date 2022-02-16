@@ -10,4 +10,6 @@ func calculosMatematicos(n1, n2 int) (soma int, subtracao int) {
 }
 
 func main() { 
+	soma, subtracao := calculosMatematicos(10, 20)
+	fmt.Println(soma, subtracao)
 }
