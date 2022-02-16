@@ -41,5 +41,16 @@ func main() {
 	for indice, letra := range "PALAVRA" {
 		fmt.Println(indice, string(letra)) // NESSE CASO É NECESSÁRIO COLOCAR STRING ANTES DE LETRA PARA O GO NÃO RETORNAR O NUMERO REFERENTE A LETRA PELA TABELA ASC
 	}
+  
+	usuario := map[string]string {
+		"nome": "Leonardo",
+		"sobrenome": "Silva",
+	}
 
+	 fmt.Println(usuario)
+
+	 for chave, valor := range usuario {
+		   fmt.Println(chave, valor)
+	 }
+	 //NÃO DA PARA FAZER RANGE EM STRUCTS
 }
