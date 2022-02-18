@@ -11,7 +11,7 @@ func fibonacci(posicao uint) uint {
 }
 
 func main() {
-   fmt.Println("Funçoes Recursivas")//FUNÇÃO RECIRSDIVA  TEM A CARACTERISTICA DE CHAMAR ELA MESMA
+   fmt.Println("Funçoes Recursivas")//FUNÇÃO RECURSDIVA  TEM A CARACTERISTICA DE CHAMAR ELA MESMA
    
 
     posicao := uint(5)
