@@ -21,7 +21,7 @@ func Gerar() *cli.App {    // função Gerar() com letra maiúscula para que o p
 			},
 		}
 
-		app.Commands = []cli.Command{
+		app.Commands = []cli.Command{ //commands é do tipo slice/////command é do tipo Struct
 			{
 				Name: "ip",
 				Usage: "Busca IPs de endereços na internet",
