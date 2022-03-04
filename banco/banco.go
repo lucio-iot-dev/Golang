@@ -1,7 +1,7 @@
 package banco
 
 import (
-	"database/sql"
+		"database/sql"
 	_ "github.com/go-sql-driver/mysql" // Driver de conexao com o MySQL
 
 )
